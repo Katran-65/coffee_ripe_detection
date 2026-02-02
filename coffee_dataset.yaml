@@ -5,10 +5,10 @@ val: yolo_valid    # относительный путь к valid изображ
 test: yolo_test    # относительный путь к test изображениям
 
 # Количество классов
-nc: 6
+nc: 5
 
 # Имена классов (должны совпадать с порядком в class_to_id)
-names: ['fruit', 'dry', 'overripe', 'ripe', 'semi_ripe', 'unripe']
+names: ['dry', 'overripe', 'ripe', 'semi_ripe', 'unripe']
 
 # Важно: В вашем JSON есть суперкатегория 'fruit' и подкатегории
 # Возможно, вам нужно использовать только 5 классов (исключив 'fruit' как общую категорию)
